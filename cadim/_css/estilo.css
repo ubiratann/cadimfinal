@@ -1,0 +1,127 @@
+body, html{
+ height: 100%;
+}
+
+body{
+	font-size: 15px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* estilos da pagina de cadastro */
+.hero-img-register{
+	background-image: url("../../images/register.jpg");
+	width:100%;
+  	height:44.6em;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+  	position: relative;
+}
+
+
+.hero-img-register .form-group {
+	position: relative;
+	left:25%;
+	width:50%;
+}
+
+.hero-img-register{
+	padding-top:6em;
+}
+
+
+/* estilos para o login */
+ .hero-img-login #cardbody{
+	position: relative;
+	left:35%;
+	width:260px;
+	
+}
+
+.hero-img-login #btn-login{
+	position: relative;
+	top:100%;
+}
+
+.hero-img-login{
+	padding-top:15%;
+  	width:100%;
+  	height:44.6em;
+  	background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/login.jpg");
+	background-repeat: no-repeat;
+ 	background-position: center;
+	background-size:cover;
+	background-attachment: inherit;
+}
+
+/* estillos do menu e modo hero da pagina inicial */
+.menu{
+	background-color:#EB5250;
+}
+
+.bgimage {
+	padding-top:15%;
+  	width:100%;
+  	height:100%;
+  	background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cadim4.jpg");
+	background-repeat: no-repeat;
+ 	background-position: center;
+	background-size:cover;
+	background-attachment: inherit;
+}
+
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+
+#li1 a{
+	border: 1px solid white;
+	padding: 7px;
+	
+	border-radius: 3px;
+	color:white;
+}
+
+
+#li1 a:hover{
+	transition:all 700ms;
+	border-radius: 3px;
+
+	color: #CA4133;
+	background-color:white;
+}
+
+
+li:hover  {
+	transition:all 700ms;
+	background-color:#CA4133;
+}
+
+
+ #b1.fadeIn {
+-webkit-animation: fadeIn 0.5s ease-in-out;
+-moz-animation: fadeIn 0.5s ease-in-out;
+-o-animation: fadeIn 0.5s ease-in-out;
+animation: fadeIn 0.5s ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+

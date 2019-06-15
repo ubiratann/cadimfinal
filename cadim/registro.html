@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadim</title>
+	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="_css/estilo.css" rel="stylesheet">
+</head>
+
+<body >
+	<nav class="fixed-top navbar navbar-expand-sm navbar-light justify-content-between" style="background-color: #EB5250;">
+	 	<button class="navbar-toggler " 
+	 			type="button" 
+	 			data-toggle="collapse" 
+	 			data-target="#toglemenu1"  
+	 			aria-expanded="false" 
+	 			aria-label="Toggle navigation"
+	 			>
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+	  		<div class="collapse navbar-collapse" id="toglemenu1">
+		 	<ul class=" navbar-nav mr-auto" id="nav-bar1">
+		 		<a class="navbar-brand" href="#">
+	    			<img src="../images/icon.png" width="30" height="30" alt="">
+	  			</a>
+		    	<li class="nav-item">
+		    		<a class="nav-link" href="index.html" style="color: white">INICIO</a>
+		    	</li>
+		    	<li class="nav-item">
+		    	    <a class="nav-link" href="#" style="color: white">CONTATO</a>
+		    	</li>	    
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="#" style="color: white">QUEM SOMOS</a>
+				</li>
+		    </ul>	
+
+		    <ul class=" navbar-nav ml-auto justify-content-between" id="nav-bar2">
+		    	<li class="nav-item " >
+		        	<a class="nav-link" href="login.html" style="color: white">ENTRAR</a>
+		    	</li>
+		    	<li class="nav-item " id="li1">
+		        	<a class="nav-link" href="registro.html">REGISTRAR</a>
+		    	</li>
+			</ul>
+		</div>
+	  </div>
+	</nav> 
+	<div class="hero-img-register" id="form-reg">
+		<div class="container">
+		<form id="form">
+			<div  class="form-group">
+				<input class="form-control" type="text" name="nome" placeholder="Nome"required maxlength="100"> 
+			</div>
+
+			<div  class="form-group">
+				<input  class="form-control" type="email" name="email" placeholder="Email"required maxlength="35">
+			</div>
+
+			<div  class="form-group">
+				<input  class="form-control" type="password" name="senha" placeholder="Senha"required maxlength="30">
+			</div>
+
+			<div  class="form-group">
+				<input class="form-control" type="text" name="cpf" placeholder="CPF"required minlength="11" maxlength="11">
+			</div>
+
+			<div  class="form-group">
+				<input  class="form-control" type="text" name="crm" placeholder="CRM"required>
+			</div>
+
+			<div  class="form-group">
+				<input  class="form-control" type="tel" name="telefone" placeholder="Telefone"required maxlength="11" minlength="11">
+			</div>
+
+			<div  class="form-group">
+				<input  class="form-control" type="date" name="nascimento" placeholder="CRM" required>
+			</div>
+
+			<div class="form-group">
+				<button class="btn btn-danger btn-block">Registrar</button>
+			</div>
+		</form>
+		</div>
+	</div>
+
+        <!-- Fim do seu codigo -->
+         <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="_js/script.js"></script>
+</body>
+</html>

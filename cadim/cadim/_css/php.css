@@ -1,0 +1,85 @@
+body, html{
+    height: 100%;
+   }
+   
+body{ font-family: 'Dosis', sans-serif;
+}
+
+#td a{
+    text-decoration: none;
+}
+#td:hover{
+    cursor: pointer;
+}
+
+
+h5{
+    font-family: 'Dosis', sans-serif;
+    
+}
+#canvas{border:1px solid red; }
+
+#pac-img{
+    width: 70%;
+    border-radius: 120px; 
+}
+
+#pac-img:hover{
+    transition: 600ms;
+    filter: grayscale(66%);
+}
+
+#sair:hover{
+    border-radius: 40px;
+    transition: 700ms;
+    background-color: #d3d3d3;
+
+}
+.text-doc{
+    float: right;
+    clear: both;
+}
+.container{
+    clear: both;
+}
+.avatarMedico{   
+    float: right;
+    clear: both;
+    border: #d3d3d3;
+    border-radius: 90px;
+    width: 12rem;
+}
+
+.card_pac{ margin-left: auto; margin-right: auto; }
+
+#cadte{
+    margin-left: 1rem; 
+    padding: 0;
+    color: blue;
+}
+
+#toglemenu1.avatar{
+    border-radius:90px;
+}
+
+
+p.card-title{
+    padding-left: 2rem;
+}
+#submit_bt{
+    position: relative;
+    margin-top: 2px;
+    float:left;
+    clear: both;
+}
+
+
+#footer{
+    margin-top:-35px;
+    background-color: #d3d3d3;
+}
+
+.col-8{
+    border-radius: 9px;
+    background-color: #dcdcdc;
+}
